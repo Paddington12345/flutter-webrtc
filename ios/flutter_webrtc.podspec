@@ -15,7 +15,7 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.vendored_frameworks = 'https://github.com/Paddington12345/webRTC-SDK/WebRTC.framework'
+  s.dependency 'WebRTC-SDK', :git => 'https://github.com/Paddington12345/webRTC-SDK.git', :branch => 'main'
   s.ios.deployment_target = '12.0'
   s.static_framework = true
 end
