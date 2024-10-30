@@ -12,10 +12,10 @@ A new flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'CloudWebRTC' => 'duanweiwei1982@gmail.com' }
   s.source           = { :path => '.' }
-  # s.source_files = 'Classes/**/*'
-  # s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'Classes/**/*'
+  s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  # s.dependency 'WebRTC-SDK', :git => 'https://github.com/Paddington12345/webRTC-SDK.git', :branch => 'main'
+  s.dependency 'WebRTC-SDK', :git => 'https://github.com/Paddington12345/webRTC-SDK.git', :branch => 'main'
   s.ios.deployment_target = '12.0'
   s.static_framework = true
 end
