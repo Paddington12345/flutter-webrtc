@@ -1,3 +1,6 @@
 [submodule "WebRTC-SDK/webRTC-SDK"]
 	path = WebRTC-SDK/webRTC-SDK
 	url = git@github.com:Paddington12345/webRTC-SDK.git
+[submodule "ios/WebRTC-SDK/webRTC-SDK"]
+	path = ios/WebRTC-SDK/webRTC-SDK
+	url = git@github.com:Paddington12345/webRTC-SDK.git
