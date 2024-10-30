@@ -18,4 +18,7 @@ A new flutter plugin project.
   s.dependency 'WebRTC-SDK'
   s.ios.deployment_target = '12.0'
   s.static_framework = true
+  s.subspec 'WebRTC-SDK' do |ss|
+    ss.source_files = 'WebRTC-SDK/**/*.{swift}'
+  end
 end
